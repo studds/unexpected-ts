@@ -1,0 +1,36 @@
+{
+  "name": "unexpected-ts",
+  "version": "1.0.0",
+  "description": "A typescript-friendly wrapper around http://unexpected.js.org, the extensible BDD assertion toolkit",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studds/unexpected-ts.git"
+  },
+  "keywords": [
+    "assertion",
+    "test",
+    "assert",
+    "bdd",
+    "typescript",
+    "unexpected"
+  ],
+  "author": "daniel.studds@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/studds/unexpected-ts/issues"
+  },
+  "homepage": "https://github.com/studds/unexpected-ts#readme",
+  "devDependencies": {
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2",
+    "unexpected": ">= 10.39.2"
+  },
+  "peerDependencies": {
+    "unexpected": ">= 10.39.2"
+  }
+}
